@@ -14,6 +14,6 @@ void main() {
   var compte = Compte("123456");
 
   compte.depot(150.0);
-
+  compte.depot(-50.0);
   print("Solde : ${compte.solde.toStringAsFixed(2)} \$");
 }
