@@ -13,7 +13,7 @@ class Couleur {
     print('(R: $r, V: $g, B: $b)');
   }
 }
-
+// Programme principal : creation et affichage des trois couleurs RGB
 void main() {
   var rouge = Couleur.rouge();
   var vert = Couleur.vert();
